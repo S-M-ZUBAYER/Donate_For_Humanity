@@ -7,7 +7,7 @@ body {
 
 /* Display section */
 .display_section {
-    background-image: url(/images/display_pic.jpg);
+    background-image: url("./images/display_pic.jpg");
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
