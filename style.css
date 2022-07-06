@@ -167,10 +167,12 @@ body {
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
+    background-color: black;
 }
 
 .amount-taka h4 {
     padding-right: 80%;
+    color: white;
 }
 
 #footer {
