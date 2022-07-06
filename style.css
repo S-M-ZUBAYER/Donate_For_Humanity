@@ -1,0 +1,194 @@
+/* link-up google font with css */
+body {
+    font-family: 'Lora', serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Display section */
+.display_section {
+    background-image: url(/images/display_pic.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: white;
+
+}
+
+.display_section div {
+    padding: 170px;
+}
+
+#display_heading {
+    font-size: 70px;
+    color: rgb(215, 238, 37);
+    margin-bottom: 10px;
+}
+
+#display_topic {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.donate_btn {
+    text-decoration: none;
+    background-image: linear-gradient(yellow, green);
+    color: rgb(63, 2, 4);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Donate way seetion  */
+.donate_way {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.donate_contribution {
+    text-align: center;
+    padding: 0% 20%;
+    margin-bottom: 40px;
+}
+
+.donate_contribution h1 {
+    font-size: 45px;
+}
+
+.donate_contribution p {
+    font-size: 20px;
+}
+
+.specified_amount {
+    display: flex;
+    font-size: 30px;
+    padding: 0% 20%;
+
+}
+
+#selected_amount {
+    border: 2px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: gold;
+    background-color: rgb(243, 255, 11);
+}
+
+.specified_amount h3 {
+    margin: 40px;
+}
+
+.unspecified_amount {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0% 20%;
+}
+
+/* Donate plan section */
+.donate_plan {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* distribution field sectioin */
+.distribution_field {
+    display: flex;
+    margin: 0% 10%;
+    margin-top: 50px;
+
+}
+
+.donate_distribute {
+    background-color: rgb(220, 209, 195);
+    padding: 40px 20px;
+    margin: 20px;
+    width: 33.33%;
+    border-radius: 10px;
+
+}
+
+.donate_distribute img {
+    width: 70px;
+}
+
+#first {
+    background-color: beige;
+}
+
+#second {
+    background-color: papayawhip;
+}
+
+#third {
+    background-color: rgb(215, 182, 188);
+}
+
+/* this is the update section */
+.update_block {
+    text-align: center;
+    margin: 40px 20%;
+    padding: 5% 10%;
+    background-color: beige;
+    border-radius: 10px;
+
+}
+
+#Email {
+    font-size: 15px;
+    color: gray;
+    background-color: lightgray;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    margin-right: -3px;
+}
+
+#subscribe_btn {
+    background-color: firebrick;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    width: 150x;
+    height: 37px;
+    font-size: 15px;
+    margin-left: -3px;
+}
+
+#points {
+    width: 300px;
+}
+
+.amount-taka {
+    display: flex;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.amount-taka h4 {
+    padding-right: 80%;
+}
+
+#footer {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+#footer h3 {
+    color: chocolate;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+#footer p {
+    padding-bottom: 40px;
+}
