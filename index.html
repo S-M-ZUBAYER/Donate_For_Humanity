@@ -7,35 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate For Humanity</title>
 
-    <!-- Added google font -->
+    <!-- Added google font for all part -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <!-- Added google font only for footer part -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora&display=swap" rel="stylesheet">
 
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="display_section">
+    <!-- this is the 1st page/Display section  -->
+
+    <section class="display_container">
+
         <div>
             <h1 id="display_heading">
                 DO Somethings Different For Peace Of Heart.
             </h1>
+
             <p id="display_topic">Poverty, disaster, violent
                 conflict, and the acute impacts of climate change all have been complicated by the global pandemic. You
                 can
                 join us as we work together with local communities to help build a world where all can prosper.</p>
+
             <a class="donate_btn" href="https://help.unicef.org/bangladesh-floods?language=en">Donate Now</a>
         </div>
 
-    </div>
+    </section>
 
-    <!-- Way of donate section -->
-    <section class="donate_way">
+    <!-- this is 2nd page, process to donate section -->
+
+    <section class="donate_Process_container">
+
         <div class="donate_contribution">
             <h1>Donate Today</h1>
             <P>With citizens giving so much of their own money to charities, it's imperative to know how to donate
@@ -47,10 +58,11 @@
         <div class="specified_amount">
             <h3>100tk</h3>
             <h3>200tk</h3>
-            <h3 id="selected_amount">500tk</h3>
+            <h3 id="selected_amount_btn">500tk</h3>
             <h3>1000tk</h3>
             <h3>5000tk</h3>
         </div>
+
         <div class="unspecified_amount">
             <p>Other Amount (Taka)</p>
             <hr>
@@ -61,7 +73,8 @@
 
     </section>
 
-    <!-- This is donate plan section -->
+    <!-- This is 3rd page , current goal to collent donation section-->
+
     <section class="update_section">
         <div class="donate_contribution">
             <h1>Our Current Goal</h1>
@@ -70,6 +83,7 @@
         </div>
 
         <div class="update_block" id="range_container">
+
             <div class="amount-taka">
                 <div>
                     <p class="blue">Raised so far</p>
@@ -77,9 +91,10 @@
                 <div>
                     <p>Our goal</p>
                 </div>
-
             </div>
+
             <input type="range" id="points" min="0" max="1oo" value="50">
+
             <div class="amount-taka">
                 <div>
                     <h5 class="blue">510775 tk</h5>
@@ -87,12 +102,16 @@
                 <div>
                     <h5>1000000 tk</h5>
                 </div>
-
             </div>
+
         </div>
+
     </section>
 
+    <!-- 4th page, planing to use this fun section -->
+
     <section class="donate_plan">
+
         <div class="donate_contribution">
             <h1>Our Donate Plan</h1>
             <P>It is one of the worst floods in 122 years. 4.3 million people are in need of humanitarian aid, including
@@ -101,43 +120,47 @@
         </div>
 
         <div class="distribution_field">
+
             <div class="donate_distribute" id="first">
                 <img class="food_icon" src="./icon/Food.svg" alt="Food_icon">
                 <h3>Food for a family</h3>
                 <p>Buy food and water. That will be ready-to-eat foods that do not require cooking or cooling</p>
             </div>
+
             <div class="donate_distribute" id="second">
                 <img class="medicine_icon" src="./icon/medicine.svg" alt="medicine_icon">
                 <h3>Medicine for a family</h3>
                 <p>Need to buy medicines safely, and sometimes urgently find and acquire medicines they need to stay
                     alive and healthy.</p>
             </div>
+
             <div class="donate_distribute" id="third">
                 <img class="education_icon" src="./icon/Education.svg" alt="Education_icon">
                 <h3>Education for a child</h3>
                 <p>Focus on rural area to find the child to provide child care financial assistance for low-income
                     families in their state.</p>
             </div>
+
         </div>
 
     </section>
 
+    <!-- this is 5th page/last page , subscribe & footer part section -->
     <section class="update_section">
+
         <div class="donate_contribution">
             <h1>Get My Update</h1>
             <P>If you are interested in receiving information from the Donate For Humanity, please click here, enter
                 your e-mail
                 address, and select from our list of subscription options.</P>
         </div>
+
         <div class="update_block">
             <input id="Email" type="Email" placeholder="Email">
             <button id="subscribe_btn">Subscribe</button>
-
         </div>
+
     </section>
-
-
-
 
 </body>
 

@@ -1,228 +1,234 @@
-/* link-up google font with css */
-body {
-    font-family: 'Lora', serif;
-    padding: 0;
-    margin: 0;
-}
+            /* link-up google font with css and fixed whole body padding and margin */
 
-/* Display section */
-.display_section {
-    background-image: url("./images/display_pic.jpg");
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: cover;
-    color: white;
+            body {
+                font-family: 'Lora', serif;
+                padding: 0;
+                margin: 0;
+            }
 
-}
+            /* this is the 1st page/Display section */
 
-.display_section div {
-    padding: 140px;
-}
+            .display_container {
+                background-image: url("./images/display_pic.jpg");
+                background-repeat: no-repeat;
+                text-align: center;
+                background-size: cover;
+                color: white;
+            }
 
-#display_heading {
-    font-size: 70px;
-    color: rgb(215, 238, 37);
-    margin-bottom: 10px;
-}
+            .display_container div {
+                padding: 140px;
+            }
 
-#display_topic {
-    font-size: 30px;
-    color: rgb(28, 67, 12);
-}
+            #display_heading {
+                font-size: 70px;
+                color: rgb(215, 238, 37);
+                margin-bottom: 10px;
+            }
 
-.donate_btn {
-    text-decoration: none;
-    background-image: linear-gradient(yellow, green);
-    color: rgb(63, 2, 4);
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 25px;
-    font-weight: bold;
-}
+            #display_topic {
+                font-size: 30px;
+                color: white;
+            }
 
-/* Donate way seetion  */
-.donate_way {
-    margin-top: 100px;
-    margin-bottom: 130px;
-    text-align: center;
-}
+            .donate_btn {
+                text-decoration: none;
+                background-image: linear-gradient(yellow, green);
+                color: rgb(63, 2, 4);
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-size: 25px;
+                font-weight: bold;
+            }
 
-.donate_contribution {
-    text-align: center;
-    padding: 0% 20%;
-    margin-bottom: 40px;
-}
+            /* this is 2nd page, process to donate section */
 
-.donate_contribution h1 {
-    font-size: 45px;
-}
+            .donate_Process_container {
+                margin-top: 100px;
+                margin-bottom: 170px;
+                text-align: center;
+            }
 
-.donate_contribution p {
-    font-size: 20px;
-    color: grey;
-}
+            .donate_contribution {
+                text-align: center;
+                padding: 0% 20%;
+                margin-bottom: 40px;
+            }
 
-.specified_amount {
-    display: flex;
-    font-size: 30px;
-    padding: 0% 20%;
-    color: rgb(95, 91, 91);
+            .donate_contribution h1 {
+                font-size: 45px;
+            }
 
-}
+            .donate_contribution p {
+                font-size: 20px;
+                color: grey;
+            }
 
-#selected_amount {
-    border: 2px solid gray;
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 5px;
-    border-color: gold;
-    background-color: rgb(243, 255, 11);
-}
+            .specified_amount {
+                display: flex;
+                font-size: 30px;
+                padding: 0% 20%;
+                color: rgb(95, 91, 91);
 
-.specified_amount h3 {
-    margin: 40px;
-}
+            }
 
-.unspecified_amount {
-    text-align: center;
-    margin-bottom: 40px;
-    padding: 0% 20%;
-    color: grey;
-}
+            .specified_amount h3 {
+                margin: 40px;
+            }
 
-.update_section {
-    margin-top: 130px;
-    margin-bottom: 130px;
-}
-
-#points {
-    width: 300px;
-}
-
-.amount-taka {
-    display: flex;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: black;
-}
-
-.amount-taka div {
-    padding-right: 80%;
-    color: white;
-    margin-bottom: 0;
-}
-
-.blue {
-    color: blue;
-}
-
-#range_container {
-    background-color: rgb(29, 2, 2);
-}
-
-/* Donate plan section */
-.donate_plan {
-    margin-top: 130px;
-    margin-bottom: 130px;
-}
-
-/* distribution field sectioin */
-.distribution_field {
-    display: flex;
-    margin: 0% 10%;
-    margin-top: 50px;
-
-}
-
-.donate_distribute {
-    background-color: rgb(220, 209, 195);
-    padding: 40px 20px;
-    margin: 20px;
-    width: 33.33%;
-    border-radius: 10px;
-
-}
-
-.donate_distribute img {
-    width: 70px;
-}
-
-#first {
-    background-color: beige;
-}
-
-#first p {
-    color: gray;
-}
-
-#second {
-    background-color: papayawhip;
-}
-
-#second p {
-    color: gray;
-}
-
-#third {
-    background-color: rgb(255, 218, 224);
-}
-
-#third p {
-    color: gray;
-}
-
-/* this is the update section */
-.update_block {
-    text-align: center;
-    margin: 40px 20%;
-    padding: 5% 10%;
-    background-color: beige;
-    border-radius: 10px;
-
-}
-
-#Email {
-    font-size: 15px;
-    color: gray;
-    background-color: lightgray;
-    border-radius: 5px 0 0 5px;
-    border: none;
-    width: 200px;
-    height: 35px;
-    font-size: 15px;
-    margin-right: -3px;
-}
-
-#subscribe_btn {
-    background-color: firebrick;
-    color: white;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    width: 150x;
-    height: 37px;
-    font-size: 15px;
-    margin-left: -3px;
-}
+            #selected_amount_btn {
+                border: 2px solid gray;
+                padding: 15px;
+                margin-top: 20px;
+                border-radius: 5px;
+                border-color: gold;
+                background-color: rgb(243, 255, 11);
+            }
 
 
 
-#footer {
-    margin-top: 100px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 100%;
-    height: 50%;
-}
+            .unspecified_amount {
+                text-align: center;
+                margin-bottom: 40px;
+                padding: 0% 20%;
+                color: grey;
+            }
 
-#footer h3 {
-    color: chocolate;
-    font-family: 'Lobster', cursive;
-    font-size: 25px;
-    padding-top: 40px;
-}
+            /* This is 3rd page , current goal to collent donation seection */
 
-#footer p {
-    padding-bottom: 40px;
-}
+            .update_section {
+                margin-top: 130px;
+                margin-bottom: 130px;
+            }
+
+            .update_block {
+                text-align: center;
+                margin: 40px 20%;
+                padding: 5% 10%;
+                background-color: beige;
+                border-radius: 10px;
+
+            }
+
+            #points {
+                width: 300px;
+            }
+
+            .amount-taka {
+                display: flex;
+                text-align: center;
+                padding-left: 10%;
+                padding-right: 10%;
+                background-color: black;
+            }
+
+            .amount-taka div {
+                padding-right: 80%;
+                color: white;
+                margin-bottom: 0;
+            }
+
+            .blue {
+                color: blue;
+            }
+
+            #range_container {
+                background-color: rgb(29, 2, 2);
+            }
+
+            /* 4th page, planing to use this fun section */
+
+            .donate_plan {
+                margin-top: 130px;
+                margin-bottom: 130px;
+            }
+
+            /* distribution field sectioin */
+            .distribution_field {
+                display: flex;
+                margin: 0% 10%;
+                margin-top: 50px;
+
+            }
+
+            .donate_distribute {
+                background-color: rgb(220, 209, 195);
+                padding: 40px 20px;
+                margin: 20px;
+                width: 33.33%;
+                border-radius: 10px;
+
+            }
+
+            .donate_distribute img {
+                width: 70px;
+            }
+
+            #first {
+                background-color: beige;
+            }
+
+            #first p {
+                color: gray;
+            }
+
+            #second {
+                background-color: papayawhip;
+            }
+
+            #second p {
+                color: gray;
+            }
+
+            #third {
+                background-color: rgb(255, 218, 224);
+            }
+
+            #third p {
+                color: gray;
+            }
+
+            /* this is 5th page/last page , subscribe & footer part section  */
+
+            #Email {
+                font-size: 15px;
+                color: gray;
+                background-color: lightgray;
+                border-radius: 5px 0 0 5px;
+                border: none;
+                width: 220px;
+                height: 40px;
+                font-size: 15px;
+                margin-right: -3px;
+            }
+
+            #subscribe_btn {
+                background-color: rgb(241, 86, 86);
+                color: white;
+                border: none;
+                border-radius: 0 5px 5px 0;
+                width: 20%;
+                height: 42px;
+                font-size: 15px;
+                margin-left: -3px;
+            }
+
+            #footer {
+                margin-top: 100px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                width: 100%;
+                height: 50%;
+            }
+
+            #footer h3 {
+                color: chocolate;
+                font-family: 'Lobster', cursive;
+                font-size: 25px;
+                padding-top: 40px;
+            }
+
+            #footer p {
+                padding-bottom: 40px;
+            }
