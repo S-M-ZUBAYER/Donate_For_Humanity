@@ -16,7 +16,7 @@ body {
 }
 
 .display_section div {
-    padding: 170px;
+    padding: 140px;
 }
 
 #display_heading {
@@ -27,7 +27,7 @@ body {
 
 #display_topic {
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(28, 67, 12);
 }
 
 .donate_btn {
@@ -43,7 +43,7 @@ body {
 /* Donate way seetion  */
 .donate_way {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
     text-align: center;
 }
 
@@ -59,18 +59,21 @@ body {
 
 .donate_contribution p {
     font-size: 20px;
+    color: grey;
 }
 
 .specified_amount {
     display: flex;
     font-size: 30px;
     padding: 0% 20%;
+    color: rgb(95, 91, 91);
 
 }
 
 #selected_amount {
     border: 2px solid gray;
     padding: 15px;
+    margin-top: 20px;
     border-radius: 5px;
     border-color: gold;
     background-color: rgb(243, 255, 11);
@@ -84,12 +87,44 @@ body {
     text-align: center;
     margin-bottom: 40px;
     padding: 0% 20%;
+    color: grey;
+}
+
+.update_section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+#points {
+    width: 300px;
+}
+
+.amount-taka {
+    display: flex;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+}
+
+.amount-taka div {
+    padding-right: 80%;
+    color: white;
+    margin-bottom: 0;
+}
+
+.blue {
+    color: blue;
+}
+
+#range_container {
+    background-color: rgb(29, 2, 2);
 }
 
 /* Donate plan section */
 .donate_plan {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /* distribution field sectioin */
@@ -117,12 +152,24 @@ body {
     background-color: beige;
 }
 
+#first p {
+    color: gray;
+}
+
 #second {
     background-color: papayawhip;
 }
 
+#second p {
+    color: gray;
+}
+
 #third {
-    background-color: rgb(215, 182, 188);
+    background-color: rgb(255, 218, 224);
+}
+
+#third p {
+    color: gray;
 }
 
 /* this is the update section */
@@ -158,22 +205,7 @@ body {
     margin-left: -3px;
 }
 
-#points {
-    width: 300px;
-}
 
-.amount-taka {
-    display: flex;
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-    background-color: black;
-}
-
-.amount-taka h4 {
-    padding-right: 80%;
-    color: white;
-}
 
 #footer {
     margin-top: 100px;
